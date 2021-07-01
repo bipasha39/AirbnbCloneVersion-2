@@ -1,0 +1,428 @@
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+#covid-alert {
+  width: 100%;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+.covid-text {
+  color: white;
+  padding-top: 10px;
+}
+
+#header-div {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header_search{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0);
+  border-radius: 24px;
+  position: absolute;
+  width: 800px;
+  height: 45px;
+  background-color: white;
+  top: 15%;
+  left: 50%;
+  margin-top: -22.5px;
+  margin-left: -400px;
+  
+  
+}
+.header_search_span{
+  height: 24px;
+  width: 1px;
+  background:grey ;
+}
+.header_search_button{
+  background-color:white;
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+ 
+}
+.header_searchIcon{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  
+}
+.header_searchIcon_img{
+  width: 32px;
+  height: 12px;
+}
+#header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  }
+
+#logo {
+  width: 40px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 15px;
+  float: left;
+}
+#logo_text {
+  display: inline;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  float: left;
+}
+.header_middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_middle_link{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+#host_link {
+  text-decoration: none;
+  color: white;
+ 
+}
+#host_link:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#header-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav_buttons {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+#welcome_div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:450px;
+  height: 250px;
+  top: 60%;
+  margin-top: -150px;
+ 
+  padding: 40px;
+}
+#welcome_text {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font: 200px;
+ 
+}
+#welcome_text_under {
+  color: white;
+  font-weight: bold;
+  margin-top: -5px;
+  font-size: 18px;
+}
+
+#get-inspired{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+ display: inline-block;
+ font-size: 17px;
+ padding: 10px 10px;
+ width: 100px;
+ 
+}
+
+#how_it_works:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#search_div {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+}
+#searchbar {
+  position: absolute;
+  width: 850px;
+  height: 45px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  margin-top: -22.5px;
+  margin-left: -400px;
+  border-radius: 2px;
+}
+#where-div {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  border-right: 1px solid lightgrey;
+}
+#where-text {
+  color: grey;
+  margin-left: 10px;
+}
+
+#search-button {
+  position: absolute;
+  width: 110px;
+  height: 45px;
+  left: 760px;
+  border-radius: 12px;
+}
+.search-button-link {
+  background-color: #ff3655;
+  color: white;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  display: inline block;
+  cursor: pointer;
+  padding: 13.5px 22px 13.5px 22px;
+  margin-left: 10px;
+}
+.container-explore {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 25px;
+}
+.all-explore-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.flex-explore {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(purple,black);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 10px;
+  background: url("sagrada\ familia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.each-explore {
+  display: flex;
+  flex-direction: row;
+}
+.explore-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-direction {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.destination {
+  margin-bottom: 15px;
+}
+#hosting-opportunity-div {
+  position: relative;
+  width: 950px;
+  height: 300px;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#hosting-opportunity-div-1 {
+  position: absolute;
+  width: 450px;
+  height: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#hosting-opportunity-div-2 {
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  background-image: url("host.jpg");
+  background-size: cover;
+  right: 0;
+ 
+}
+
+#hosting-button{
+    border-radius: 4px;
+}
+#live-anywhere{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 25px;
+}
+.live-anywhere-grid{
+   
+   
+}
+.live-anywhere-box{
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(purple, red);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 16px;
+    margin: 10px;
+    background: url("houses.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.live-anywhere-text{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+#all-live-anywhere-grid{
+   display: flex;
+   flex-direction: row; 
+   justify-content:flex-start;
+   
+}
+#discover-experiences-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 25px;
+}
+.discover-experiences-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.discover-experiences-box{
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(purple, red);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 16px;
+    margin: 10px;
+    background: url("horse riding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.discover-experiences-text{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.discover-experience-subheading{
+    margin: 0px;
+}
+
+#more-about-airbnb {
+  position: relative;
+  width: 950px;
+  height: 350px;
+  background-color:lightgray;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  border-radius: 14px;
+}
+#more-about-airbnb-div-1 {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#more-about-airbnb-div-2 {
+  position: absolute;
+  width: 650px;
+  height: 100%;
+  background-image: url("village\ in\ valley.jpg");
+  background-size: cover;
+  right: 0;
+  border-radius: 14px;
+ 
+ 
+ 
+}
+
+.button-2021{
+    text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+ display: inline-block;
+ font-size: 15px;
+ padding: 5px;
+ width: 60px;
+}
+.learn-more-button{
+ 
+  text-decoration: none;
+background-color: black;
+color: white;
+border: 2px solid black;
+border-radius: 10px;
+display: inline-block;
+font-size: 18px;
+padding: 8px;
+width: 120px;
+}
