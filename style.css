@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 #covid-alert {
@@ -24,9 +25,13 @@ body {
   background-image: url("./assests/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flex;
 }
 
 .header_search{
+  position: absolute;
+  width: 800px;
+  height: 45px;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -34,9 +39,6 @@ body {
   overflow: hidden;
   border: 1px solid rgba(128, 128, 128, 0);
   border-radius: 24px;
-  position: absolute;
-  width: 800px;
-  height: 45px;
   background-color: white;
   top: 15%;
   left: 50%;
@@ -73,13 +75,12 @@ body {
 }
 #header {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 50px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  
   }
 
 #logo {
@@ -106,7 +107,6 @@ body {
   text-decoration: none;
   color: white;
   padding-left: 10px;
-  padding-left: 10px;
 }
 #host_link {
   text-decoration: none;
@@ -118,9 +118,8 @@ body {
 }
 #header-nav{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
+
 .nav_buttons {
   font-family: sans-serif;
   color: white;
@@ -140,28 +139,19 @@ body {
   width:450px;
   height: 250px;
   top: 60%;
-  margin-top: -150px;
- 
+  margin-top: -220px;
   padding: 40px;
 }
 #welcome_text {
   color: white;
-  text-transform: uppercase;
   font-weight: bold;
-  font: 200px;
- 
-}
-#welcome_text_under {
-  color: white;
-  font-weight: bold;
-  margin-top: -5px;
-  font-size: 18px;
+  font-size:50px;
 }
 
 #get-inspired{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border: 2px solid black;
   border-radius: 10px;
  display: inline-block;
@@ -337,8 +327,8 @@ body {
 }
 #all-live-anywhere-grid{
    display: flex;
-   flex-direction: row; 
-   justify-content:flex-start;
+   justify-content:center;
+   margin-right: 100px;
    
 }
 #discover-experiences-div{
@@ -479,26 +469,38 @@ width: 80px;
 #footer{
   width: 100%;
   height: auto;
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.157);
   display: flex;
-  flex-direction: column;
-  padding-left: 25px; 
-  padding-right: 25px; 
-
+  flex-direction: column; 
 }
 .all-col{
   width: 1250px;
   height: auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
    
 }
 .footer-end{
-  width:1250px;
+  width:auto;
   height: 50px;
- 
+  margin-left: 60px;
+  margin-right: 60px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+.footer-end-right{
+  display: flex;
+}
+
+i{
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.icons_text{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.social-media-icon{
+  display: inline-block;
 }
