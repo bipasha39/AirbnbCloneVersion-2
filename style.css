@@ -22,9 +22,10 @@ body {
   position: relative;
   width: 100%;
   height: 600px;
-  background-image: url("./assests/bg.jpg");
+  background-image: url("https://www.theday.com/storyimage/NL/20201105/NWS01/201109888/AR/0/AR-201109888.jpg&Maxw=800&q=62");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-position: center;
   display: flex;
 }
 
@@ -111,6 +112,7 @@ body {
 #host_link {
   text-decoration: none;
   color: white;
+ padding-top: 5px;
  
 }
 #host_link:hover {
@@ -234,13 +236,14 @@ body {
   text-align: center;
   border-radius: 16px;
   margin: 10px;
-  background: url("./assests/sagrada\ familia.jpg");
+  background: url("./assests/sagrada_famalia.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .each-explore {
   display: flex;
-  flex-direction: row;
+ 
 }
 .explore-text {
   display: flex;
@@ -303,10 +306,7 @@ body {
     margin: 30px;
     padding: 25px;
 }
-.live-anywhere-grid{
-   
-   
-}
+
 .live-anywhere-box{
     width: 300px;
     height: 280px;
@@ -316,7 +316,7 @@ body {
     text-align: center;
     border-radius: 16px;
     margin: 10px;
-    background: url("./assests/houses.jpg");
+    background: url("./assests/house2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -354,9 +354,10 @@ body {
     text-align: center;
     border-radius: 16px;
     margin: 10px;
-    background: url("./assests/horse\ riding.jpg");
+    background: url("./assests/skydive.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .discover-experiences-text{
     margin-left: 20px;
@@ -396,8 +397,6 @@ body {
   right: 0;
   border-radius: 14px;
  
- 
- 
 }
 
 .button-2021{
@@ -413,7 +412,7 @@ body {
 }
 .learn-more-button{
  
-  text-decoration: none;
+text-decoration: none;
 background-color: black;
 color: white;
 border: 2px solid black;
@@ -426,14 +425,13 @@ width: 120px;
 #Inspiration-for-future-getaways-div{
   width: 1100px;
   height: auto;
- 
   margin-left: 30px;
   margin-right:30px ;
   padding-left: 25px; 
   padding-right: 25px; 
 }
 .Future-getway-allButton{
-  text-decoration: none;
+text-decoration: none;
 color:lightgray;
 border-radius: 10px;
 display: inline-block;
@@ -456,9 +454,7 @@ width: 80px;
 .first-element-future-gateway{
  font-size: 14px;
  list-style: none;
- font-family: Arial, Helvetica, sans-serif;
-  
-
+ font-family: Arial, Helvetica, sans-serif; 
 }
 .second-element-future-gateway{
   color: grey;
@@ -477,8 +473,7 @@ width: 80px;
   width: 1250px;
   height: auto;
   display: flex;
-  justify-content: space-around;
-   
+  justify-content: space-around; 
 }
 .footer-end{
   width:auto;
@@ -496,11 +491,7 @@ i{
   margin-right: 30px;
   margin-top: 10px;
 }
-
 .icons_text{
   margin-top: 10px;
   margin-right: 10px;
-}
-.social-media-icon{
-  display: inline-block;
 }
